@@ -1,0 +1,63 @@
+/* h1{
+    font-size: 20px;
+    color: blue;
+} */
+/* body{
+    border: 2px solid red;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    /* justify-content: center; */
+    /* align-items: center; */
+ */
+#currency-container{
+    border: 1px solid black;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    margin: 10px;
+}
+#currency-container div {
+    /* border: 2px solid rgb(170, 0, 255); */
+    width: 98%;
+    
+    
+}
+#enter-currency{
+    /* background-color: red; */
+    height: 50px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(242, 241, 241);
+    
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#currency-type{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* #container{
+  display: flex;
+  padding: 10px;
+  border: 2px solid red;
+  justify-content: space-evenly;
+  width: 100%;
+} */
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
